@@ -4,7 +4,9 @@ import { useLang } from "@/context/Lang";
 
 const GALLERY_IMAGES = [
   "/0ic21.jpg",
-  ...Array.from({ length: 16 }, (_, i) => `/pic${i + 1}.jpg`),
+  ...Array.from({ length: 16 }, (_, i) => i + 1)
+    .filter((number) => number !== 8)
+    .map((number) => `/pic${number}.jpg`),
   "/pic18.jpg",
   "/pic19.jpg",
   "/pic20.jpg",
