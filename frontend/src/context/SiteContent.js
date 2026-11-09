@@ -1,17 +1,11 @@
-import { createContext, useContext, useEffect, useState } from "react";
-import axios from "axios";
-import { API } from "@/lib/site";
+import { createContext, useContext, useState } from "react";
+import siteContent from "@/data/site-content.json";
 
-const empty = { courses: [], projects: [], gallery: [], faculty: {}, social_links: [], reviews: { youtube_videos: [] }, branding: {} };
-const SiteContentCtx = createContext({ content: empty, setContent: () => {}, loaded: false });
+const SiteContentCtx = createContext({ content: siteContent, setContent: () => {}, loaded: true });
 
 export function SiteContentProvider({ children }) {
-  const [content, setContent] = useState(empty);
-  const [loaded, setLoaded] = useState(false);
-  useEffect(() => {
-    axios.get(`${API}/content`).then((r) => setContent({ ...empty, ...r.data })).catch(() => {}).finally(() => setLoaded(true));
-  }, []);
-  return <SiteContentCtx.Provider value={{ content, setContent, loaded }}>{children}</SiteContentCtx.Provider>;
+  const [content, setContent] = useState(siteContent);
+  return <SiteContentCtx.Provider value={{ content, setContent, loaded: true }}>{children}</SiteContentCtx.Provider>;
 }
 
 export const useSiteContent = () => useContext(SiteContentCtx);

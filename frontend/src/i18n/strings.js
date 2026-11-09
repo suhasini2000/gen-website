@@ -53,7 +53,7 @@ const en = {
   form: {
     eyebrow: "Course enquiry", name: "Student name", phone: "Phone number", course: "Course interested in", select: "Select an option",
     mode: "Preferred learning mode", modes: ["Offline", "Online", "Not sure yet"], message: "Message", messagePh: "Tell us a little about your learning goal",
-    submit: "Send enquiry on WhatsApp", success: "Saved — WhatsApp is ready with your enquiry.", error: "We couldn’t save your enquiry right now. Please try WhatsApp directly or try again.",
+    submit: "Send enquiry on WhatsApp", success: "WhatsApp opened with your enquiry.", notice: "Your enquiry is sent through WhatsApp and is not stored on this website.",
   },
   contact: { eyebrow: "Start a conversation", title: "Let’s find your right course.", heading: "Build like a pro — with the power of AI.", text: "Tell us what you want to learn. We’ll help you choose a practical path.", follow: "Follow us", chat: "Chat on WhatsApp" },
   footer: { tagline: "AI based software training hub · 20+ years of experience · Online & offline classes.", visit: "Visit us", talk: "Talk to us", explore: "Explore", follow: "Follow us", rights: "All rights reserved." },
@@ -129,7 +129,7 @@ const te = {
   form: {
     eyebrow: "కోర్సు విచారణ", name: "విద్యార్థి పేరు", phone: "ఫోన్ నంబర్", course: "ఆసక్తి ఉన్న కోర్సు", select: "ఎంచుకోండి",
     mode: "ఇష్టమైన తరగతి విధానం", modes: ["ఆఫ్‌లైన్", "ఆన్‌లైన్", "ఇంకా నిర్ణయించలేదు"], message: "సందేశం", messagePh: "మీ అభ్యాస లక్ష్యం గురించి కొంచెం చెప్పండి",
-    submit: "WhatsApp లో విచారణ పంపండి", success: "సేవ్ అయింది — మీ విచారణతో WhatsApp సిద్ధంగా ఉంది.", error: "ప్రస్తుతం మీ విచారణ సేవ్ కాలేదు. నేరుగా WhatsApp చేయండి లేదా మళ్లీ ప్రయత్నించండి.",
+    submit: "WhatsApp లో విచారణ పంపండి", success: "మీ విచారణతో WhatsApp తెరవబడింది.", notice: "మీ విచారణ WhatsApp ద్వారా పంపబడుతుంది; ఈ వెబ్‌సైట్‌లో నిల్వ చేయబడదు.",
   },
   contact: { eyebrow: "మాతో మాట్లాడండి", title: "మీకు సరైన కోర్సు కనుగొందాం.", heading: "AI శక్తితో — ప్రొఫెషనల్‌లా నిర్మించండి.", text: "మీరు ఏమి నేర్చుకోవాలనుకుంటున్నారో చెప్పండి. సరైన మార్గం ఎంచుకోవడంలో సహాయం చేస్తాం.", follow: "మమ్మల్ని అనుసరించండి", chat: "WhatsApp లో చాట్ చేయండి" },
   footer: { tagline: "AI ఆధారిత సాఫ్ట్‌వేర్ శిక్షణ కేంద్రం · 20+ సంవత్సరాల అనుభవం · ఆన్‌లైన్ & ఆఫ్‌లైన్ తరగతులు.", visit: "మా చిరునామా", talk: "మాతో మాట్లాడండి", explore: "మరిన్ని", follow: "మమ్మల్ని అనుసరించండి", rights: "సర్వ హక్కులు ప్రత్యేకించబడ్డాయి." },

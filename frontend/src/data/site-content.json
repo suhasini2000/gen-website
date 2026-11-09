@@ -1,0 +1,547 @@
+{
+  "courses": [
+    {
+      "id": "969e24c6-11f3-4bbf-8b88-688123f00ca3",
+      "name": "AI Tools Training",
+      "topics": [
+        "ChatGPT",
+        "Google Gemini",
+        "Claude",
+        "Microsoft Copilot",
+        "AI Image Generation",
+        "AI Video Creation",
+        "AI Content Creation",
+        "AI Coding Tools",
+        "AI for Business Productivity"
+      ],
+      "category": "AI & Modern Technology",
+      "duration": "",
+      "featured": true,
+      "description": "Use ChatGPT, Gemini, Claude, Copilot and other AI tools confidently for study, work and business.",
+      "description_te": "చదువు, ఉద్యోగం, వ్యాపారం కోసం ChatGPT, Gemini, Claude, Copilot వంటి AI టూల్స్‌ను నమ్మకంగా ఉపయోగించడం నేర్చుకోండి."
+    },
+    {
+      "id": "e963944a-2663-4a9a-9546-ab18e2bf0528",
+      "name": "Python",
+      "topics": [],
+      "category": "Programming Languages",
+      "duration": "",
+      "featured": true,
+      "description": "Build logic, automation and real-world software with Python.",
+      "description_te": "Python తో లాజిక్, ఆటోమేషన్ మరియు నిజ జీవిత సాఫ్ట్‌వేర్ తయారు చేయడం నేర్చుకోండి."
+    },
+    {
+      "id": "8e542a09-26e0-4fb8-b8dd-3ae2df028775",
+      "name": "Java",
+      "topics": [],
+      "category": "Programming Languages",
+      "duration": "",
+      "featured": true,
+      "description": "Learn object-oriented programming and application design with Java.",
+      "description_te": "Java తో ఆబ్జెక్ట్-ఓరియెంటెడ్ ప్రోగ్రామింగ్ మరియు అప్లికేషన్ డిజైన్ నేర్చుకోండి."
+    },
+    {
+      "id": "0e740195-c80e-4242-97b1-0467e59c4ca1",
+      "name": ".NET",
+      "topics": [],
+      "category": "Programming Languages",
+      "duration": "",
+      "featured": true,
+      "description": "Build Windows and web applications with C# and the .NET platform.",
+      "description_te": "C# మరియు .NET ప్లాట్‌ఫామ్‌తో విండోస్ మరియు వెబ్ అప్లికేషన్లు తయారు చేయండి."
+    },
+    {
+      "id": "1567f78f-ddea-4d98-959b-91da9cff9917",
+      "name": "Full Stack Development",
+      "topics": [],
+      "category": "Full Stack & Web Development",
+      "duration": "",
+      "featured": true,
+      "description": "Create complete websites and apps — from interface to database.",
+      "description_te": "ఇంటర్‌ఫేస్ నుండి డేటాబేస్ వరకు పూర్తి వెబ్‌సైట్లు మరియు యాప్‌లు తయారు చేయండి."
+    },
+    {
+      "id": "e4397cbc-0a48-4cea-a8fa-5ac51e66282e",
+      "name": "C / C++",
+      "topics": [],
+      "category": "Programming Languages",
+      "duration": "",
+      "featured": true,
+      "description": "Strong programming foundations with C and C++.",
+      "description_te": "C మరియు C++ తో బలమైన ప్రోగ్రామింగ్ పునాది వేసుకోండి."
+    },
+    {
+      "id": "27bd94cd-99bc-49cc-b9d7-24b84bcdb839",
+      "name": "MS Office",
+      "topics": [],
+      "category": "Office & Business Applications",
+      "duration": "",
+      "featured": true,
+      "description": "Master Word, Excel and PowerPoint for everyday work.",
+      "description_te": "రోజువారీ పనుల కోసం Word, Excel, PowerPoint లో నైపుణ్యం సాధించండి."
+    },
+    {
+      "id": "2f960065-c6ac-4788-a7e7-feaa27d5be9c",
+      "name": "Tally with GST",
+      "topics": [],
+      "category": "Office & Business Applications",
+      "duration": "",
+      "featured": true,
+      "description": "Learn accounting and GST workflows used by real businesses.",
+      "description_te": "వ్యాపారాల్లో ఉపయోగించే అకౌంటింగ్ మరియు GST పనులు నేర్చుకోండి."
+    },
+    {
+      "id": "7d7fab2f-d6ef-4c70-aaad-8a7bd7191552",
+      "name": "AutoCAD",
+      "topics": [],
+      "category": "Graphic Design & Engineering",
+      "duration": "",
+      "featured": true,
+      "description": "Create precise 2D and 3D engineering drawings.",
+      "description_te": "ఖచ్చితమైన 2D మరియు 3D ఇంజనీరింగ్ డ్రాయింగ్‌లు తయారు చేయండి."
+    },
+    {
+      "id": "4cce138b-ec0b-4e47-bc0d-e3040670e4eb",
+      "name": "Advanced Java",
+      "topics": [],
+      "category": "Programming Languages",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "c2305fd1-c237-44e6-9270-28e59cb376bf",
+      "name": "HTML",
+      "topics": [],
+      "category": "Full Stack & Web Development",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "73def354-40ea-423a-910d-53b6dad524ce",
+      "name": "CSS",
+      "topics": [],
+      "category": "Full Stack & Web Development",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "0d8143be-8689-4a58-83de-a159c2e6d3eb",
+      "name": "JavaScript",
+      "topics": [],
+      "category": "Full Stack & Web Development",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "6880775f-410e-48f0-bd2d-20b758e161f8",
+      "name": "React.js",
+      "topics": [],
+      "category": "Full Stack & Web Development",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "caaeddb3-0f18-4263-ab82-5c70c0c40b04",
+      "name": "Next.js",
+      "topics": [],
+      "category": "Full Stack & Web Development",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "fa014aae-850c-4799-b58d-d7ca667e6bda",
+      "name": "Python Full Stack Development",
+      "topics": [],
+      "category": "Full Stack & Web Development",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "0c39615b-564c-42af-b41e-e847e290f505",
+      "name": "Java Full Stack Development",
+      "topics": [],
+      "category": "Full Stack & Web Development",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "badfa5da-1bed-427e-b6c1-a451a83609e1",
+      "name": ".NET Full Stack Development",
+      "topics": [],
+      "category": "Full Stack & Web Development",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "6103cc76-b975-4f13-beaf-466b099de5aa",
+      "name": "Django",
+      "topics": [],
+      "category": "Full Stack & Web Development",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "16a1fdaf-9676-4369-b071-1e2aaf62d7e4",
+      "name": "Git and GitHub",
+      "topics": [],
+      "category": "Full Stack & Web Development",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "68f848a1-8b83-49cd-a294-3399cee9f433",
+      "name": "Artificial Intelligence Fundamentals",
+      "topics": [],
+      "category": "AI & Modern Technology",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "bda1b7e6-0fd6-4efe-8b12-0891867c70f9",
+      "name": "ChatGPT",
+      "topics": [],
+      "category": "AI & Modern Technology",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "a8c69ab8-280d-4205-a497-5502f2338ebc",
+      "name": "Google Gemini",
+      "topics": [],
+      "category": "AI & Modern Technology",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "4fad1075-988b-48ed-b9df-6c3f8ba6bcdc",
+      "name": "Claude",
+      "topics": [],
+      "category": "AI & Modern Technology",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "5ec00998-0f29-45da-a8fa-accd7044afe4",
+      "name": "Microsoft Copilot",
+      "topics": [],
+      "category": "AI & Modern Technology",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "d1372531-d896-4c2f-bf0d-a63fb632178e",
+      "name": "AI for Content Creation",
+      "topics": [],
+      "category": "AI & Modern Technology",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "7f8535cf-4a9f-4d74-9cce-f9f064661d39",
+      "name": "AI Image Generation",
+      "topics": [],
+      "category": "AI & Modern Technology",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "7e85c465-5914-4b5d-8a8e-0c3f1f06182b",
+      "name": "AI Video Creation",
+      "topics": [],
+      "category": "AI & Modern Technology",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "79fe9fcb-522b-4a03-90c0-306e793cbda7",
+      "name": "AI Coding Tools",
+      "topics": [],
+      "category": "AI & Modern Technology",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "f9b1fb70-332a-4431-b724-090b0658294d",
+      "name": "GitHub Copilot",
+      "topics": [],
+      "category": "AI & Modern Technology",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "1ac02ee4-ff9a-4639-ba80-25e06d7a6846",
+      "name": "Practical AI Applications",
+      "topics": [],
+      "category": "AI & Modern Technology",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "fb75ea58-d94a-46f0-9b82-7cdd1836c025",
+      "name": "SQL Server",
+      "topics": [],
+      "category": "Database & Other Technologies",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "cc5e5dc5-534e-4c0b-861a-6a5e28cad047",
+      "name": "Oracle",
+      "topics": [],
+      "category": "Database & Other Technologies",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "8e19a840-9b16-4e85-8060-1af2999a8b7f",
+      "name": "MySQL",
+      "topics": [],
+      "category": "Database & Other Technologies",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "6f6beba9-e684-47ee-b15c-59b91b62186f",
+      "name": "Unix",
+      "topics": [],
+      "category": "Database & Other Technologies",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "3ab5d66b-8348-41d0-94cd-6b6aab1f3fab",
+      "name": "MS Word",
+      "topics": [],
+      "category": "Office & Business Applications",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "6bdb0263-85f0-4249-9bf8-8e8228e64eb4",
+      "name": "MS Excel",
+      "topics": [],
+      "category": "Office & Business Applications",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "3c1eaf03-7145-413f-b244-0e08cbd6457a",
+      "name": "MS PowerPoint",
+      "topics": [],
+      "category": "Office & Business Applications",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "edb67e2e-8e89-4b98-afa4-e63e2f81cb77",
+      "name": "Adobe Photoshop",
+      "topics": [],
+      "category": "Graphic Design & Engineering",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "f728c278-6b38-4904-a531-dc9ea2289308",
+      "name": "PageMaker",
+      "topics": [],
+      "category": "Graphic Design & Engineering",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "ab142c9c-301e-46e8-8af2-df7f5b48af13",
+      "name": "Scratch Programming",
+      "topics": [],
+      "category": "Kids Programming",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "f5988eca-3cd2-4c27-a5f1-5ea26b7069cc",
+      "name": "Basic Computer Skills",
+      "topics": [],
+      "category": "Kids Programming",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "b3855caa-65dd-41bd-8a15-31d4c81c9280",
+      "name": "Logical Thinking and Problem Solving",
+      "topics": [],
+      "category": "Kids Programming",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "10b2e3b2-39f4-488c-96a8-d48267a9c119",
+      "name": "Introduction to AI for Kids",
+      "topics": [],
+      "category": "Kids Programming",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "64100d90-0f3d-42c0-a79e-eaac8038bb53",
+      "name": "Vedic Maths Foundation",
+      "topics": [],
+      "category": "Vedic Mathematics",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "f0c73a4d-83a0-4af4-acd0-24db88b314e2",
+      "name": "Vedic Maths for School Students",
+      "topics": [],
+      "category": "Vedic Mathematics",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "1256a874-6706-4e1a-b26f-c4c1892cd43d",
+      "name": "Fast Calculation Techniques",
+      "topics": [],
+      "category": "Vedic Mathematics",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "2b61003d-4b22-4620-b61e-be63aba35e2a",
+      "name": "Mental Mathematics",
+      "topics": [],
+      "category": "Vedic Mathematics",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    },
+    {
+      "id": "af234e45-5f36-4323-8095-cc86ab08c5f8",
+      "name": "Vedic Maths for Competitive Exam Preparation",
+      "topics": [],
+      "category": "Vedic Mathematics",
+      "duration": "",
+      "featured": false,
+      "description": "Build practical understanding through guided lessons, exercises and projects tailored to your level.",
+      "description_te": "మీ స్థాయికి తగిన పాఠాలు, అభ్యాసాలు మరియు ప్రాజెక్టులతో ఆచరణాత్మక జ్ఞానం పొందండి."
+    }
+  ],
+  "faculty": {
+    "bio": "",
+    "name": ""
+  },
+  "gallery": [],
+  "reviews": {
+    "youtube_videos": [
+      "https://youtu.be/NplVw3DcuCM",
+      "https://youtu.be/EzJCs3qoCRk"
+    ],
+    "google_reviews_url": "",
+    "instagram_reel_url": ""
+  },
+  "branding": {
+    "logo_url": ""
+  },
+  "projects": [],
+  "social_links": [
+    {
+      "id": "eb3758cb-ea87-4426-b3f9-b58f18245a90",
+      "url": "https://youtube.com/@geninfocomputereducationcentre",
+      "label": "GenInfo Computer Education Centre",
+      "platform": "youtube"
+    },
+    {
+      "id": "c523616d-2326-4890-a577-8eeca15866c0",
+      "url": "https://youtube.com/@mathspark26-g2h",
+      "label": "MathSpark@26",
+      "platform": "youtube"
+    },
+    {
+      "id": "0108b77c-8709-4811-9678-e2e4c8f42f48",
+      "url": "https://www.instagram.com/reel/DfPiQJTzI11/?utm_source=ig_web_copy_link&obrf=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
+      "label": "@geninfotech_official",
+      "platform": "instagram"
+    },
+    {
+      "id": "2a069aa0-592c-4923-8b2a-c19fafa9c0ff",
+      "url": "https://www.instagram.com/mathspark26",
+      "label": "@mathspark26",
+      "platform": "instagram"
+    }
+  ]
+}

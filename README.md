@@ -52,34 +52,27 @@ python3 migrate_mongodb_to_postgres.py
 Existing PostgreSQL records are not overwritten; duplicate enquiry IDs are
 skipped.
 
-## Test deployment on Render (free tier)
+## Free static deployment on Render
 
-The root `render.yaml` defines a Render Blueprint with:
+The root `render.yaml` deploys a single free Render Static Site. Courses,
+social links, and other site content are bundled in
+`frontend/src/data/site-content.json`; image files belong in `frontend/public`.
+The website does not need a hosted API or database to display this content.
 
-- A free static site for the React frontend.
-- A free Python web service for the FastAPI backend.
-- A free PostgreSQL database named `gen_website`.
+To deploy, sign in to Render, choose **New → Blueprint**, connect
+`suhasini2000/gen-website`, select `main`, and apply the Blueprint. The site
+will build and Render will show its public URL when deployment finishes.
+Render Static Sites are free and do not spin down when idle.
 
-To deploy, push the project to GitHub, sign in to Render, choose **New →
-Blueprint**, connect `suhasini2000/gen-website`, and deploy the Blueprint from
-the `main` branch. Render will build the frontend and backend, create the
-database, and connect the services. The default test URLs are:
+To update courses or social links, edit `frontend/src/data/site-content.json`
+and push the change to `main`; Render automatically rebuilds the site. Add
+photos to `frontend/public` and reference them with paths such as `/classroom.jpg`.
+The enquiry form opens WhatsApp with the student's details; enquiries are not
+stored by this static site. The admin editor is unavailable in this setup.
 
-- Website: `https://geninfotech-site.onrender.com`
-- API health endpoint: `https://geninfotech-api.onrender.com/api/`
-- API documentation: `https://geninfotech-api.onrender.com/docs`
-
-The new database starts with the default site content, including the course
-list and current social links. It does not copy local enquiry records. Free web
-services can sleep when idle and take time to wake on the next visit. Render's
-free PostgreSQL databases are temporary and can expire; use this setup only for
-testing, and export any data you need to keep before the expiration date shown
-in the Render dashboard. Upgrade the database before using the site for
-production enquiries.
-
-The admin area stays unavailable until Clerk is configured. To enable it, add
-`CLERK_PUBLISHABLE_KEY`, `CLERK_SECRET_KEY`, and `ADMIN_EMAIL` to the backend
-service's Render environment, then redeploy.
+If you previously deployed the Blueprint that included the API and database,
+remove the old `geninfotech-api` service and `geninfotech-db` database from
+Render after confirming the static site deployment works.
 
 ## Start the application on macOS
 
@@ -141,9 +134,10 @@ The frontend API client appends `/api` to `REACT_APP_BACKEND_URL`. Restart the
 frontend after changing its environment file. If you recreate these files,
 keep the variable names as shown.
 
-Admin authentication additionally needs Clerk credentials and an allowed
-administrator email configured in the backend environment. Do not put secret
-keys in frontend environment variables or commit them.
+The optional local backend's admin authentication requires Clerk credentials
+and an allowed administrator email in its environment. Do not put secret keys
+in frontend environment variables or commit them. The free static deployment
+does not include the backend or admin editor.
 
 ## Useful commands
 

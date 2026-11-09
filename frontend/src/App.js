@@ -12,7 +12,6 @@ import InfoPage from "@/pages/InfoPage";
 import Projects from "@/pages/Projects";
 import Gallery from "@/pages/Gallery";
 import Contact from "@/pages/Contact";
-import AdminGate from "@/admin/AdminGate";
 
 function PublicRoutes() {
   return (
@@ -41,10 +40,10 @@ export default function App() {
     <SiteContentProvider>
       <BrowserRouter>
         <Routes>
-          <Route path="/admin/*" element={<AdminGate />} />
-          <Route path="/admin-sign-up/*" element={<AdminGate />} />
-          <Route path="/sign-in/*" element={<Navigate to="/admin" replace />} />
-          <Route path="/sign-up/*" element={<Navigate to="/admin-sign-up" replace />} />
+          <Route path="/admin/*" element={<Navigate to="/" replace />} />
+          <Route path="/admin-sign-up/*" element={<Navigate to="/" replace />} />
+          <Route path="/sign-in/*" element={<Navigate to="/" replace />} />
+          <Route path="/sign-up/*" element={<Navigate to="/" replace />} />
           <Route path="*" element={<PublicRoutes />} />
         </Routes>
       </BrowserRouter>
