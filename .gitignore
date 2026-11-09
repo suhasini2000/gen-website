@@ -1,0 +1,15 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+build/
+coverage/
+*.py[cod]
+test_reports/iteration_*.json
+test_reports/content_backup*.json
+test_reports/pytest/*
+!test_reports/pytest/.gitkeep
+test_reports/browser/**/*.jpeg
+test_reports/browser/**/*.log
