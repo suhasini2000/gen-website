@@ -55,7 +55,7 @@ def default_social_links() -> list[dict]:
     links = [
         ("youtube", "GenInfo Computer Education Centre", "https://youtube.com/@geninfocomputereducationcentre"),
         ("youtube", "MathSpark@26", "https://youtube.com/@mathspark26-g2h"),
-        ("instagram", "@geninfotech_official", "https://www.instagram.com/geninfotech_official"),
+        ("instagram", "@geninfotech_official", "https://www.instagram.com/reel/DfPiQJTzI11/?utm_source=ig_web_copy_link&obrf=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA=="),
         ("instagram", "@mathspark26", "https://www.instagram.com/mathspark26"),
     ]
     return [{"id": str(uuid.uuid4()), "platform": p, "label": label, "url": url} for p, label, url in links]

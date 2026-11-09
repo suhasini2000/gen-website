@@ -52,6 +52,35 @@ python3 migrate_mongodb_to_postgres.py
 Existing PostgreSQL records are not overwritten; duplicate enquiry IDs are
 skipped.
 
+## Test deployment on Render (free tier)
+
+The root `render.yaml` defines a Render Blueprint with:
+
+- A free static site for the React frontend.
+- A free Python web service for the FastAPI backend.
+- A free PostgreSQL database named `gen_website`.
+
+To deploy, push the project to GitHub, sign in to Render, choose **New →
+Blueprint**, connect `suhasini2000/gen-website`, and deploy the Blueprint from
+the `main` branch. Render will build the frontend and backend, create the
+database, and connect the services. The default test URLs are:
+
+- Website: `https://geninfotech-site.onrender.com`
+- API health endpoint: `https://geninfotech-api.onrender.com/api/`
+- API documentation: `https://geninfotech-api.onrender.com/docs`
+
+The new database starts with the default site content, including the course
+list and current social links. It does not copy local enquiry records. Free web
+services can sleep when idle and take time to wake on the next visit. Render's
+free PostgreSQL databases are temporary and can expire; use this setup only for
+testing, and export any data you need to keep before the expiration date shown
+in the Render dashboard. Upgrade the database before using the site for
+production enquiries.
+
+The admin area stays unavailable until Clerk is configured. To enable it, add
+`CLERK_PUBLISHABLE_KEY`, `CLERK_SECRET_KEY`, and `ADMIN_EMAIL` to the backend
+service's Render environment, then redeploy.
+
 ## Start the application on macOS
 
 Start each part in its own Terminal window or VS Code terminal.
