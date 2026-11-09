@@ -3,6 +3,7 @@ export const WA = "919866168995";
 export const PHONE = "+91 98661 68995";
 export const TEL = "tel:+919866168995";
 export const EMAIL = "geninfo133@gmail.com";
+export const INSTAGRAM_REEL_URL = "https://www.instagram.com/reel/DfPiQJTzI11/";
 export const ADDRESS_LINES = ["Geninfotech Computer Centre", "Rama Lakshmi Complex, Main Road", "Opp. Canara Bank, Sajjapuram", "Tanuku, West Godavari, Andhra Pradesh 534211"];
 export const MAP_URL = "https://maps.google.com/?q=Geninfotech+Computer+Centre+Rama+Lakshmi+Complex+Main+Road+Sajjapuram+Andhra+Pradesh+534211";
 

@@ -3,7 +3,7 @@ import { ArrowRight, Check, Instagram, MessageCircle, Phone, Star } from "lucide
 import { CourseCard, CTA, Division, SectionTitle } from "@/components/common";
 import { useSiteContent } from "@/context/SiteContent";
 import { useLang } from "@/context/Lang";
-import { STOCK_PHOTOS, TEL, waLink, youtubeId } from "@/lib/site";
+import { INSTAGRAM_REEL_URL, STOCK_PHOTOS, TEL, waLink, youtubeId } from "@/lib/site";
 
 function Hero() {
   const { t } = useLang();
@@ -73,7 +73,7 @@ function Reviews() {
   const { content } = useSiteContent();
   const r = content.reviews || {};
   const videos = (r.youtube_videos || []).map(youtubeId).filter(Boolean);
-  const reel = r.instagram_reel_url || "https://www.instagram.com/mathspark26";
+  const reel = r.instagram_reel_url || INSTAGRAM_REEL_URL;
   return (
     <section className="dark-section reviews" data-testid="home-reviews"><div className="container">
       <SectionTitle light eyebrow={t.home.reviewsEyebrow} title={t.home.reviewsTitle} text={t.home.reviewsText} />
