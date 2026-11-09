@@ -56,6 +56,80 @@ function AboutSection() {
   );
 }
 
+const SUCCESS_STORIES = [
+  {
+    name: "Divya Anaparthi",
+    company: "Deloitte Digital",
+    quote: "The course transformed my career. I went from a junior developer to a senior role in just 2 years!",
+    image: "/divya.jpg",
+    imageAlt: "Divya Anaparthi",
+  },
+  {
+    name: "Tulasi",
+    company: "TCS Company",
+    quote: "By offering a thorough and practical curriculum, we prepare our students to confidently handle real-world technical challenges.",
+    image: "/tulasi.jpg",
+    imageAlt: "Tulasi at a GenInfotech event",
+  },
+  {
+    name: "D. Irwin Emmanuel",
+    company: "Threatmodeler Software Inc",
+    quote: "The comprehensive curriculum gave me the confidence to tackle any technical challenge.",
+    image: "/shinnu.jpg",
+    imageAlt: "D. Irwin Emmanuel",
+  },
+  {
+    name: "Kishore",
+    company: "Abroad Educational Consultancy",
+    quote: "Our in-depth curriculum builds the knowledge and confidence required to excel in any technical environment.",
+    image: "/kishore.jpg",
+    imageAlt: "Kishore",
+  },
+  {
+    name: "K Ayyappa",
+    company: "Work From Home",
+    quote: "The hands-on projects and mentorship were invaluable. I'm now leading a team of 10 developers.",
+    image: "/ayyappa.jpg",
+    imageAlt: "K Ayyappa",
+  },
+  {
+    name: "Sravani",
+    company: "TCS Software Company",
+    quote: "The comprehensive curriculum gave me the confidence to tackle any technical challenge.",
+    image: "/sravani.png",
+    imageAlt: "Sravani",
+  },
+  {
+    name: "P.M.Mrudula",
+    company: "WIPRO",
+    quote: "Our comprehensive curriculum equips students with the confidence and skills needed to tackle any technical challenge.",
+    image: "/pic1.jpg",
+    imageAlt: "GenInfotech students learning in class",
+  },
+];
+
+function SuccessStories() {
+  return (
+    <section className="section success-stories" id="past-students" data-testid="home-success-stories">
+      <div className="container">
+        <SectionTitle eyebrow="Student outcomes" title="Our Success Stories" />
+        <div className="students-grid">
+          {SUCCESS_STORIES.map((student, i) => (
+            <article className="student-item" key={student.name} data-testid={`success-story-${i}`}>
+              <img src={student.image} alt={student.imageAlt} loading="lazy" />
+              <div className="student-content">
+                <h3>{student.name}</h3>
+                <p className="student-company">{student.company}</p>
+                <p className="student-quote">“{student.quote}”</p>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function MainCourses() {
   const { t } = useLang();
   const { content } = useSiteContent();
@@ -105,6 +179,7 @@ export default function Home() {
       <Stats />
       <AboutSection />
       <MainCourses />
+      <SuccessStories />
       <section className="section divisions"><div className="container">
         <SectionTitle eyebrow={t.home.unitsEyebrow} title={t.home.unitsTitle} />
         <div className="division-grid">

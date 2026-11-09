@@ -237,3 +237,15 @@ html[lang=te] .stat span{text-transform:none;letter-spacing:0;font-size:14px}
 @media(max-width:600px){.reviews-grid,.site-footer .footer-grid{grid-template-columns:1fr}.reel-card{flex-direction:column}.reel-thumbnail-link{margin:auto}.stat span{font-size:11px}.home-about-badge{right:10px;bottom:-20px}.hero-banner-img img{aspect-ratio:auto}.social-row{grid-template-columns:1fr}}
 html[lang=te] .eyebrow,html[lang=te] .top-strip,html[lang=te] .footer-label,html[lang=te] .gallery-grid figcaption.sample,html[lang=te] .footer-bottom{font-family:'Noto Sans Telugu',Manrope,sans-serif;letter-spacing:0;text-transform:none}
 html[lang=te] .eyebrow{font-size:12px;font-weight:600}
+
+.success-stories{background:#fff}
+.success-stories .section-title{margin-bottom:38px}
+.students-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.student-item{background:var(--paper);border:1px solid var(--line);overflow:hidden}
+.student-item img{width:100%;height:220px;display:block;object-fit:cover}
+.student-content{padding:22px}
+.student-item h3{font-size:20px}
+.student-company{margin:8px 0 15px;color:var(--muted);font-size:13px;font-weight:700}
+.student-quote{margin:0;padding-top:14px;border-top:1px solid var(--line);color:#586579;font-size:13px;line-height:1.75}
+@media(max-width:900px){.students-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.students-grid{grid-template-columns:1fr}.student-item img{height:240px}}
