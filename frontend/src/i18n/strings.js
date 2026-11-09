@@ -24,7 +24,7 @@ const en = {
     allCourses: "View complete course catalogue",
     unitsEyebrow: "Our learning units", unitsTitle: "Two focused units, one GenInfotech.",
     reviewsEyebrow: "Student reviews", reviewsTitle: "Hear it from our students.", reviewsText: "Watch real student and parent reviews on YouTube and Instagram.",
-    reelTitle: "Watch our Instagram reel", reelText: "Scan the QR code with your phone camera, or tap below.", openInstagram: "Open on Instagram",
+    reelTitle: "Watch our Instagram reel", reelText: "Tap the preview or button below to watch the reel on Instagram.", openInstagram: "Open on Instagram",
     googleReviews: "Read our Google reviews",
   },
   units: {
@@ -100,7 +100,7 @@ const te = {
     allCourses: "పూర్తి కోర్సుల జాబితా చూడండి",
     unitsEyebrow: "మా అభ్యాస విభాగాలు", unitsTitle: "రెండు ప్రత్యేక విభాగాలు, ఒకే GenInfotech.",
     reviewsEyebrow: "విద్యార్థుల అభిప్రాయాలు", reviewsTitle: "మా విద్యార్థుల మాటల్లో.", reviewsText: "YouTube మరియు Instagram లో నిజమైన విద్యార్థులు, తల్లిదండ్రుల అభిప్రాయాలు చూడండి.",
-    reelTitle: "మా Instagram రీల్ చూడండి", reelText: "మీ ఫోన్ కెమెరాతో QR కోడ్ స్కాన్ చేయండి, లేదా క్రింద నొక్కండి.", openInstagram: "Instagram లో తెరవండి",
+    reelTitle: "మా Instagram రీల్ చూడండి", reelText: "రీల్‌ను Instagramలో చూడటానికి ప్రివ్యూ లేదా క్రింది బటన్‌ను నొక్కండి.", openInstagram: "Instagram లో తెరవండి",
     googleReviews: "మా Google రివ్యూలు చదవండి",
   },
   units: {

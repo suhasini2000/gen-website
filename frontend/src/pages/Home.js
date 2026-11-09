@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Check, Instagram, MessageCircle, Phone, Star } from "lucide-react";
+import { ArrowRight, Check, Instagram, MessageCircle, Phone, Play, Star } from "lucide-react";
 import { CourseCard, CTA, Division, SectionTitle } from "@/components/common";
 import { useSiteContent } from "@/context/SiteContent";
 import { useLang } from "@/context/Lang";
@@ -84,7 +84,10 @@ function Reviews() {
           </div>
         ))}
         <div className="reel-card" data-testid="review-instagram-reel">
-          <img src="/reel-qr.jpg" alt="Instagram reel QR code – @mathspark26" />
+          <a className="reel-thumbnail-link" href={reel} target="_blank" rel="noreferrer" aria-label={t.home.openInstagram}>
+            <img src="/reel-thumbnail.jpg" alt="Preview of the GenInfotech Instagram student review reel" />
+            <span className="reel-play-icon" aria-hidden="true"><Play size={24} fill="currentColor" /></span>
+          </a>
           <div><Instagram size={18} /><h3>{t.home.reelTitle}</h3><p>{t.home.reelText}</p>
             <a className="button button-gold" href={reel} target="_blank" rel="noreferrer" data-testid="review-instagram-link">{t.home.openInstagram} <ArrowRight size={15} /></a></div>
         </div>
