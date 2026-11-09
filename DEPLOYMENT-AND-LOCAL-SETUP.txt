@@ -1,0 +1,91 @@
+GENINFOTECH WEBSITE — RENDER AND LOCAL SETUP
+=============================================
+
+RENDER BLUEPRINT (FREE STATIC WEBSITE)
+--------------------------------------
+
+1. Sign in at https://dashboard.render.com/.
+2. Select New +, then Blueprint.
+3. Connect the GitHub repository:
+   https://github.com/suhasini2000/gen-website
+4. Choose the main branch.
+5. Review the Blueprint. It should create just one service:
+   geninfotech-site — a Static Site.
+   This Blueprint does not create a backend service or database.
+6. Apply the Blueprint and wait for the deployment to show Live.
+7. Open the public URL shown on the geninfotech-site service page.
+
+Future changes pushed to the main branch are built and deployed automatically.
+If you previously deployed the older Blueprint, first confirm the static site
+works, then remove its old geninfotech-api service and geninfotech-db database
+from Render if they are still present.
+
+The static website reads courses and other public content from:
+   frontend/src/data/site-content.json
+
+Put image files in frontend/public and use paths like /classroom.jpg in the
+content JSON. Enquiry forms open WhatsApp; they are not saved to a website
+database. The admin editor is not available on the static-only deployment.
+
+
+RUN THE BACKEND LOCALLY
+-----------------------
+
+The local API needs PostgreSQL. On macOS with Homebrew, start it:
+
+   brew services start postgresql@14
+
+Create the local database once if it does not already exist:
+
+   createdb gen_website
+
+Create backend/.env with these local development settings:
+
+   DATABASE_URL=postgresql://mohan@127.0.0.1:5432/gen_website
+   CORS_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
+
+Open a terminal and run:
+
+   cd /Users/mohan/Desktop/gen-website/backend
+   python3 -m venv .venv
+   source .venv/bin/activate
+   python -m pip install --upgrade pip
+   pip install -r requirements.txt
+   python -m uvicorn server:app --reload --host 127.0.0.1 --port 8000
+
+The API is at http://127.0.0.1:8000. Its interactive docs are at
+http://127.0.0.1:8000/docs. Stop it with Ctrl+C.
+
+
+RUN THE FRONTEND LOCALLY
+------------------------
+
+In another terminal:
+
+   cd /Users/mohan/Desktop/gen-website/frontend
+   corepack yarn install
+   corepack yarn start
+
+Open http://localhost:3000. Stop it with Ctrl+C.
+
+The static frontend does not need the local backend to display the website or
+open WhatsApp enquiries. The backend commands above are for running/testing
+the API separately. The API uses the local PostgreSQL database.
+
+
+GENERATE A UNIQUE COURSE ID
+---------------------------
+
+On macOS, run this in Terminal:
+
+   uuidgen
+
+Copy the generated UUID, including its hyphens, into the new course's "id"
+field in frontend/src/data/site-content.json, for example:
+
+   "id": "7b2c4a0e-1d3f-4a56-9b78-123456789abc"
+
+Use a newly generated ID for every course. Keep the new course object inside
+the "courses" array and follow the fields/order of nearby course entries.
+Save the file, commit and push it to the main branch; Render will rebuild the
+static site automatically.
