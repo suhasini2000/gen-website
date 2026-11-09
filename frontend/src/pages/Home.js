@@ -42,7 +42,7 @@ function AboutSection() {
     <section className="section home-about" data-testid="home-about">
       <div className="container home-about-grid">
         <div className="home-about-media">
-          <img src={STOCK_PHOTOS[0]} alt="Students learning on computers" />
+          <img src="/pic5.jpg" alt="Students learning on computers" />
           <div className="home-about-badge"><strong>20+</strong><span>{t.home.stats[0][1]}</span></div>
         </div>
         <div>
